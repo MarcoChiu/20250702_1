@@ -144,7 +144,11 @@ footer{
     text-align: center;
 }
 
-/* 先寫大的尺寸再寫小的 */
+/* min以下 max以上 */
+
+/* max的話先寫大的尺寸再寫小的  */
+/* screen print */
+/* 992尺寸以下時 */
 @media screen and (max-width:992px) {
     .intro {
         /* 要將原本推的去掉才不會有X軸 */
@@ -155,6 +159,7 @@ footer{
     }
 }
 
+/* 768尺寸以下時 */
 @media screen and (max-width:768px) {
      .container{
         padding-right: 5px;
