@@ -1,15 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-/* 通用 */
-:root {
-    --text-Primary-400: #57A203;
-    --text-neutral-white: #ffffff;
-    --text-neutral-300: #DEE2E6;
-    --text-neutral-600: #6C757D; 
-    --text-neutral-900: #212529;
-    --bg-Primary-100: #F5FEE7;
-    --bg-neutral-100:#F8F9FA;
-}
 
 body {
     font-family: 'Noto Sans TC', sans-serif;
@@ -22,69 +10,6 @@ body {
 .container {
     max-width: 856px;
     margin: 0 auto;
-} 
-
-.storya {
-    color: var(--text-Primary-400);
-    text-underline-offset: 4px;
-    display: block;
-}
-
-.storya:hover{
-     color: var(--text-neutral-white);
-     background-color: var(--text-Primary-400);     
-}
-
-.h1 {
-    font-size: 40px;
-    line-height: 1.2;
-    font-weight: 700;
-}
-
-.h3 {
-    font-size: 28px;
-    line-height: 1.2;
-    font-weight: 700;
-}
-
-.h4 {
-    font-size: 24px;
-    line-height: 1.2;
-    font-weight: 700;
-}
-
-.h5 {
-    font-size: 20px;
-    line-height: 1.2;
-    font-weight: 700;
-}
-
-.text-neutral-white {
-    color: var(--text-neutral-white);
-}
-
-.text-neutral-300 {
-    color: var(--text-neutral-300);
-}
-
-.text-neutral-600 {
-    color: var(--text-neutral-600);
-}
-
-.text-neutral-900 {
-    color: var(--text-neutral-900);
-}
-
-.text-Primary-400 {
-    color: var(--text-Primary-400);
-}
-
-.bg-Primary-100 {
-    background-color: var(--bg-Primary-100);
-}
-
-.bg-neutral-100{
- background-color: var(--bg-neutral-100);
 }
 
 /* Page */
@@ -140,7 +65,18 @@ body {
     border-left: 3px solid var(--text-neutral-300);
 }
 
-footer{
+.storya {
+    color: var(--text-Primary-400);
+    text-underline-offset: 4px;
+    display: block;
+}
+
+.storya:hover {
+    color: var(--text-neutral-white);
+    background-color: var(--text-Primary-400);
+}
+
+footer {
     text-align: center;
 }
 
@@ -161,8 +97,8 @@ footer{
 
 /* 768尺寸以下時 */
 @media screen and (max-width:768px) {
-     .container{
+    .container {
         padding-right: 5px;
         padding-left: 5px;
-     }
-} 
+    }
+}
